@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+    name="description"
+   content="RD is a modern technology blog sharing articles on Artificial Intelligence, HTML, CSS, JavaScript, Git, and Web Development.">
+    <title>RD | Blog Website</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+       <!-- Transition Api use  -->
+        <meta name="view-transition" content="same-origin">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+
+      <link
+      rel="icon"
+       href="blog-bg.png">
+
+</head>
+
+<body>
+    
+    
+
+    <!--  Navbar  -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo"
+            aria-label="RD Home">
+
+    RD
+
+</a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="#blogs">Blogs</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        
+
+    </header>
+   
+     <!-- Floating Note -->
+<div class="floating-note">
+
+    📌 All blog articles are based on my personal learning and practical experiences.
+
+</div>
+
+   
+    
+
+    <!--  Hero  -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Welcome to RD</h1>
+
+            <p>
+
+                Discover articles about Web Development,
+                Programming, Artificial Intelligence,
+                and the latest technology trends.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--  Search  -->
+
+    <section class="search-section">
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search Blog..."
+            onkeyup="searchPosts()">
+
+    </section>
+
+    <!--  Blog Section  -->
+
+    <section id="blogs" class="blogs">
+
+        <h2>Latest Blogs</h2>
+
+        <div class="blog-container">
+
+            <!-- Blog 1 -->
+               <div class="blog-card">
+            <img
+          src="blog1.png"
+          loading="lazy"
+          alt="Artificial Intelligence Illustration">
+
+                <h3>The Future of Artificial Intelligence</h3>
+
+                <p class="date">
+                    Published : July 15, 2026
+                </p>
+
+                <p >
+
+                    Learn how Artificial Intelligence is
+                    changing industries and shaping the future.
+
+                </p>
+
+                <a href="blog1.html" class="btn">
+                    Read More
+                </a>
+
+            </div>
+
+            <!-- Blog 2 -->
+
+            <div class="blog-card">
+
+                <img src="blog2.png" 
+                loading="lazy"
+                alt="HTML CSS">
+
+                <h3>Complete Guide to HTML & CSS</h3>
+
+                <p class="date">
+                    Published : July 10, 2026
+                </p>
+
+                <p>
+
+                    Build beautiful and responsive websites
+                    using HTML5 and modern CSS techniques.
+
+                </p>
+
+                <a href="blog2.html" class="btn">
+                    Read More
+                </a>
+
+            </div>
+
+            <!-- Blog 3 -->
+
+            <div class="blog-card">
+
+                <img src="blog3.png" 
+                loading="lazy"
+                alt="GitHub">
+
+                <h3>Why Every Student Should Learn Git & GitHub</h3>
+
+                <p class="date">
+                    Published : July 5, 2026
+                </p>
+
+                <p>
+
+                    Understand version control,
+                    collaboration, and project management
+                    with Git and GitHub.
+
+                </p>
+
+                <a href="blog3.html" class="btn">
+                    Read More
+                </a>
+
+            </div>
+
+            <!-- Blog 4 -->
+
+            <div class="blog-card">
+
+                <img src="blog4.png"
+                loading="lazy"
+                 alt="JavaScript">
+
+                <h3>How JavaScript Makes Websites Interactive</h3>
+
+                <p class="date">
+                    Published : July 1, 2026
+                </p>
+
+                <p>
+
+                    Discover how JavaScript adds
+                    animations, validation, and dynamic
+                    functionality to websites.
+
+                </p>
+
+                <a href="blog4.html" class="btn">
+                    Read More
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--  Contact -->
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+
+            Thank you for visiting RD.
+            Follow us for more technology articles and tutorials.
+
+        </p>
+
+        <div class="social-links">
+
+            <a href="https://github.com/Ankitkumawat1302"
+             target="_blank"
+             rel="noopener noreferrer">
+
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ankit-kumawat-8a05b1323"
+            target="_blank"
+            rel="noopener noreferrer" >
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:ankitkumawat43657@gmail.com?subject=Meeting Request" 
+            target="_blank"
+            rel="noopener noreferrer">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+           © 2026 RD. All Rights Reserved.
+Designed & Developed by Ankit Kumawat
+
+        </p>
+
+    </footer>
+
+    
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
